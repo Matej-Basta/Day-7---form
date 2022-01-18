@@ -28,6 +28,7 @@ form {
   padding: 2rem;
   border-radius: 5px;
   color: $white;
+  margin-bottom: 3rem;
 
   .heading {
     opacity: 0.7;
@@ -58,6 +59,10 @@ form {
     max-width: 100%;
     min-width: 100%;
     padding: 0.5rem;
+
+    &:focus {
+      background-color: pink;
+    }
   }
 
   .last {
@@ -67,5 +72,26 @@ form {
   .margin {
     margin-left: 0.5rem;
     margin-top: 0.2rem;
+  }
+
+  .button {
+    padding: 0.5rem;
+    width: 21%;
+    text-transform: uppercase;
+    background-color: $white;
+    color: $blue;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+
+  .focus:focus {
+    background-color: pink;
   }
 }

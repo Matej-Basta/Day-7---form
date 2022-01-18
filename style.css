@@ -25,6 +25,7 @@ form {
   padding: 2rem;
   border-radius: 5px;
   color: #ffffff;
+  margin-bottom: 3rem;
 }
 form .heading {
   opacity: 0.7;
@@ -52,10 +53,31 @@ form textarea {
   min-width: 100%;
   padding: 0.5rem;
 }
+form textarea:focus {
+  background-color: pink;
+}
 form .last {
   margin-bottom: 1.5rem;
 }
 form .margin {
   margin-left: 0.5rem;
   margin-top: 0.2rem;
+}
+form .button {
+  padding: 0.5rem;
+  width: 21%;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: #001555;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 5px;
+}
+form .button:hover {
+  background-color: #001555;
+  color: #ffffff;
+}
+form .focus:focus {
+  background-color: pink;
 }
